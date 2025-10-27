@@ -17,7 +17,7 @@ body {
 .shape {
   position: absolute;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: 0.3s ;
 }
 
 /* формы */
