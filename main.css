@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stage {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.shape {
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* формы */
+.circle {
+  border-radius: 50%;
+}
+
+.square {
+  border-radius: 0;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  background: transparent;
+}
